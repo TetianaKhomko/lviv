@@ -1,0 +1,335 @@
+body {
+    background-image: url("img/background.jpg");
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+header {}
+
+nav {
+    clear: both;
+    text-align: center;
+    margin: 20px;
+  
+}
+
+
+/*початок теню*/
+
+.men {
+    clear: both;
+    margin-top: 410px;
+}
+
+
+.men-one {
+    clear: both;
+    margin-top: 50px;
+}
+
+.flex-menu {
+    display: -webkit-flex;
+    display: flex;
+    top: 0;
+}
+
+.flex-item {
+    background-color: #ED5526;
+    background: radial-gradient(#f2c8b0, #ED5526);
+    margin: 1.5%;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(37, 89, 96, 0.4);
+}
+
+.flex-item a {
+    display: block;
+    border-radius: 24px;
+}
+
+.menu {
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    z-index: 1;
+    position: absolut;
+   
+}
+
+a,
+.dropbtn {
+    display: inline-block;
+    color: #282421;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #b24003;
+    background: radial-gradient(#f2c8b0, #b24003);
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F5A11B;
+    background: radial-gradient(#f2c8b0, #F5A11B);
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(37, 88, 93, 0.2);
+    border-radius: 20px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #e2966c;
+    background: radial-gradient(#f2c8b0, #e2966c);
+    border-radius: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.flex-item a:hover {
+    background-color: #b24003;
+    background: radial-gradient(#f2c8b0, #b24003);
+}
+
+
+/*кінець теню*/
+
+
+/* машинка */
+
+.small {
+    height: 50px;
+    width: auto;
+}
+
+.poruch {
+    float: left;
+    margin-right: 400px;
+}
+
+.car {
+    animation-name: drive;
+    animation-duration: 13s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+   
+}
+
+.polution {
+    animation-name: polution;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+
+.rideEffect {
+    animation-name: ride-effect;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.welcome-effect {
+    animation-name: welcome;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    transform: opacity 1s ease-in-out;
+}
+
+@keyframes ride-effect {
+    from {
+        transform: scaleX(1);
+    }
+    to {
+        transform: scaleX(0.9);
+    }
+}
+
+@keyframes drive {
+    from {
+        transform: translateX(-600px);
+    }
+    to {
+        transform: translateX(900px);
+    }
+}
+
+@keyframes polution {
+    from {
+        transform: rotate(-360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes welcome {
+    0% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/*кінець машинки*/
+
+section {
+    margin: 0 1.5%;
+    padding: 10px;
+}
+
+footer {
+    clear: left;
+}
+
+.pan {
+    width: 100%;
+    margin: auto;
+}
+
+img.icon {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    opacity: 0.7;
+}
+
+.facebook {
+    width: 70px;
+    height: 70px;
+    margin-left: 0;
+}
+
+img.icon:hover {
+    width: 140px;
+    height: 140px;
+    opacity: 1.0;
+}
+
+h1 {
+    font-family: "Poiret One", Times, serif;
+    color: #B2570D;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-family: Underdog, Times, serif;
+    text-align: justify;
+    color: #573519;
+}
+
+p::first-letter {
+    color: #E64B93;
+}
+
+.tosee {
+    clear: both;
+    margin: 20px;
+}
+
+.ramka {
+    position: absolute;
+    z-index: -1;
+    clear: both;
+    margin-top: 80px;
+    margin-bottom: 30px;
+  
+}
+
+.relative-one {
+    position: relative;
+    margin-top: 0
+}
+
+.fixed-one {
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+}
+
+.font-one {
+    font-family: 'Neucha', cursive;
+}
+
+.fakt {
+    margin: 80px;
+    margin-left: 140px;
+}
+
+.facty {
+    list-style-type: disk;
+}
+
+
+ 
+
+
+td:hover {
+    visibility: visible;
+}
+
+tr:nth-child(even) {
+    background-color:#FCEBFC;
+}
+tr:nth-child(odd) {
+    background-color:#E1F4FC;
+}
+.body-info {
+    margin-left: 10%;
+}
+
+
+#myCarousel {
+    max-height: 400px
+    margin: 0 auto;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+/*  font-family: 'Marck Script', cursive;
+        font-family: 'Neucha', cursive;
+        font-family: 'Poiret One', cursive;
+        font-family: 'Pattaya', sans-serif;
+        font-family: 'Underdog', cursive; */

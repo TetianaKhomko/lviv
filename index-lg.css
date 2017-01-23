@@ -1,0 +1,87 @@
+.section-column {
+    float: left;
+    width: 30%;
+}
+
+.flex-menu {
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    width: 750px;
+    height: 70px;
+}
+
+.flex-item {
+    width: 40%;
+}
+
+.foto {
+    width: 380px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.aside-men {
+    float: left;
+    max-width: 550px;
+    margin: 20px;
+}
+
+.loc {
+    width: 500px;
+}
+
+.artic {
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+.foto-events {
+    float: left;
+    width: 700px;
+    height: auto;
+    margin: 40px;
+}
+
+.foto-events-two {
+    float: right;
+    width: 700px;
+    height: auto;
+    margin: 40px;
+}
+
+.events {
+    margin-bottom: 80px;
+    clear: both;
+    margin-top: 100px;
+    
+}
+
+.step {
+    margin-top: 100px;
+}
+
+.stars {
+    clear: both;
+    float: left;
+    margin: 20px;
+}
+
+.foto-one {
+    width: 200px;
+    height: auto;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.text {
+    margin: 30px;
+    margin-top: 70px;
+}
+
+.video-one {
+    width: 750px;
+    height: auto;
+    margin: 80px;
+}

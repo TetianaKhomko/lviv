@@ -1,0 +1,57 @@
+.flex-menu {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    max-width: 700px;
+    height: 250px;
+}
+
+.flex-item {
+    max-width: 650px;
+    height: 45px;
+}
+
+.section-column {
+    display: block;
+    clear: both;
+}
+
+.foto-events-two {
+    width: 750px;
+    height: auto;
+}
+
+.step {
+    margin-top: 80px;
+}
+
+.artic {
+    clear: both;
+}
+
+.stars {
+    clear: both;
+    display: block;
+    margin: 20px;
+}
+
+.foto {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.foto-one {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.video-one {
+    clear: both;
+    max-width: 300px;
+    height: auto;
+    margin: 20px;
+}
